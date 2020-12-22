@@ -10,7 +10,7 @@ This repository is mainly an experiment, but I'll be adding to it as I use it my
 
 Set up a new virtualenv with `msal` and `xdg` installed as per the `requirements.txt`.
 
-A sample `.ini` file is supplied. Copy this to `~/.config/o365-imap-proxy.ini` (or wherevere your XDG config home is) and modify it to suit. You'll need at least a "client ID" from Azure AD.
+A sample `.ini` file is supplied. Copy this to `~/.config/o365-imap-proxy.ini` (or wherever your XDG config home is) and modify it to suit. You'll need at least a "client ID" from Azure AD.
 
 Run `o365_imap_proxy.py --register` to log the proxy in to your O365 account. This should only need to be done once, though I am not totally sure that the token refresh flows in the proxy actually work. This will need further investigation.
 
